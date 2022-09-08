@@ -18,6 +18,11 @@ body {
 	font-size: 15rem;
 	font-family: v.$fuente_principal;
 	background-color: v.$azul-fondo;
+
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h1,
@@ -60,5 +65,4 @@ a {
 
 .contenedor {
 	width: min(95%, 1200rem);
-	margin: 0px auto;
 }
